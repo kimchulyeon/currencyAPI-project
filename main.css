@@ -1,14 +1,9 @@
 body {
-  background-color: rgb(231, 226, 226);
+  background-color: rgb(73, 164, 200);
   color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.warp {
-  width: 100%;
-  height: 100%;
-  position: relative;
 }
 /* HEADER */
 .title {
@@ -59,7 +54,7 @@ main {
   appearance: none;
   cursor: pointer;
   margin-right: 30px;
-  background-color: burlywood;
+  background-color: rgb(182, 121, 121);
   border-radius: 10px;
 }
 .currency input {
@@ -67,7 +62,7 @@ main {
   background: transparent;
   font-size: 30px;
   text-align: right;
-  background-color: burlywood;
+  background-color: rgb(182, 121, 121);
 }
 .currency input:focus {
   outline: none;
@@ -78,11 +73,11 @@ main {
   justify-content: space-between;
 }
 .btn {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(152, 165, 98);
+  color: rgb(0, 0, 0);
   border-radius: 10px;
   margin-top: 30px;
-  margin-left: 12px;
+  margin-left: -7px;
   padding: 7px 10px;
   cursor: pointer;
 }
